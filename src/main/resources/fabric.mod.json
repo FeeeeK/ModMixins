@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "axd1x8a-server-patches",
+	"version": "${version}",
+	"name": "axd1x8a's server patches",
+	"description": "Mixins for my server",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/feeeek/ModMixins",
+		"sources": "https://github.com/feeeek/ModMixins"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.axd1x8a.serverpatches.Axd1x8aServerPatches"
+		]
+	},
+	"mixins": [
+		"axd1x8a-server-patches.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"hexcasting": "=0.10.3"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

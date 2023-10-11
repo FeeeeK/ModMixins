@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "me.axd1x8a.serverpatches.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"OpSetScaleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
