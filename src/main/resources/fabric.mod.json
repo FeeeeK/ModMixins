@@ -5,7 +5,7 @@
 	"name": "axd1x8a's server patches",
 	"description": "Mixins for my server",
 	"authors": [
-		"Me!"
+		"axd1x8a"
 	],
 	"contact": {
 		"homepage": "https://github.com/feeeek/ModMixins",
@@ -22,13 +22,10 @@
 		"axd1x8a-server-patches.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.23",
-		"minecraft": "~1.19.2",
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
 		"java": ">=17",
 		"fabric-api": "*",
-		"hexcasting": "=0.10.3"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"hexcasting": "~${hexcasting_version}"
 	}
 }
